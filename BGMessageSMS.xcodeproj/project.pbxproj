@@ -18,6 +18,7 @@
 		DD4AB6DD17705198009A4EB0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4AB6DC17705198009A4EB0 /* Default-568h@2x.png */; };
 		DD4AB6E017705198009A4EB0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4AB6DE17705198009A4EB0 /* MainStoryboard.storyboard */; };
 		DD4AB6E317705198009A4EB0 /* BGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4AB6E217705198009A4EB0 /* BGViewController.m */; };
+		DD4AB6EA177052EE009A4EB0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4AB6E9177052EE009A4EB0 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		DD4AB6DF17705198009A4EB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		DD4AB6E117705198009A4EB0 /* BGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGViewController.h; sourceTree = "<group>"; };
 		DD4AB6E217705198009A4EB0 /* BGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGViewController.m; sourceTree = "<group>"; };
+		DD4AB6E9177052EE009A4EB0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4AB6EA177052EE009A4EB0 /* MessageUI.framework in Frameworks */,
 				DD4AB6C717705198009A4EB0 /* UIKit.framework in Frameworks */,
 				DD4AB6C917705198009A4EB0 /* Foundation.framework in Frameworks */,
 				DD4AB6CB17705198009A4EB0 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		DD4AB6C517705198009A4EB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD4AB6E9177052EE009A4EB0 /* MessageUI.framework */,
 				DD4AB6C617705198009A4EB0 /* UIKit.framework */,
 				DD4AB6C817705198009A4EB0 /* Foundation.framework */,
 				DD4AB6CA17705198009A4EB0 /* CoreGraphics.framework */,
@@ -264,6 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BGMessageSMS/BGMessageSMS-Prefix.pch";
 				INFOPLIST_FILE = "BGMessageSMS/BGMessageSMS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +280,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BGMessageSMS/BGMessageSMS-Prefix.pch";
 				INFOPLIST_FILE = "BGMessageSMS/BGMessageSMS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
